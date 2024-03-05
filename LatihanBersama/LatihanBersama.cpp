@@ -36,6 +36,7 @@ int main()
 	cout << "Nilai Matematika: " << NilaiMTK << endl;
 	cout << "Nilai Bahasa" << NilaiBahasa << endl;
 	cout << "Nilai Fisika" << NilFis << endl;
+	cout << "Nilai rerata : " << Rerata << endl;
 	cout << "Status kelulusan : " << status << endl;
 	cout << "Status mahasiswa ; " << status2;
 }
