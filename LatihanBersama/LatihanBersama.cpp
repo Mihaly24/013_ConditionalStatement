@@ -31,6 +31,7 @@ int main()
 	else
 	{
 		status = "Tidak Lulus";
+		status2 = "Tidak Lulus";
 	}
 	cout << "Nilai Matematika: " << NilaiMTK << endl;
 	cout << "Nilai Bahasa" << NilaiBahasa << endl;
