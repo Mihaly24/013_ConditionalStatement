@@ -27,6 +27,8 @@ int main()
 		status = "Lulus";
 		if (NilFis >= 90)
 			status2 = "Lulusan Terbaik";
+		else
+			status2 = "Lulus";
 	}
 	else
 	{
