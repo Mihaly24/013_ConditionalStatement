@@ -10,7 +10,7 @@ using namespace std;
 int main()
 {
 	int NilaiMTK, NilaiBahasa, NilFis;
-	string status;
+	string status, status2;
 	float Rerata;
 
 	cout << "Nilai Matematika" << endl;
@@ -26,7 +26,7 @@ int main()
 	{
 		status = "Lulus";
 		if (NilFis >= 90)
-			status = "Lulusan Terbaik";
+			status2 = "Lulusan Terbaik";
 	}
 	else
 	{
@@ -35,5 +35,6 @@ int main()
 	cout << "Nilai Matematika: " << NilaiMTK << endl;
 	cout << "Nilai Bahasa" << NilaiBahasa << endl;
 	cout << "Nilai Fisika" << NilFis << endl;
-	cout << "Status kelulusan : " << status;
+	cout << "Status kelulusan : " << status << endl;
+	cout << "Status mahasiswa ; " << status2;
 }
